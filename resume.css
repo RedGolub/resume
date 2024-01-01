@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@400;600&family=Rubik+Broken+Fax&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&family=Roboto+Condensed:wght@400;600&family=Rubik+Broken+Fax&family=Titillium+Web&display=swap');
+body {
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgb(250, 247, 241);
+}
+
+h1 {
+   font-family: 'Roboto Condensed';
+   font-weight: 600;
+   letter-spacing: 2px;
+   line-height: 30px;
+   color: rgb(185, 88, 8);
+   text-decoration-line: underline; 
+   text-decoration-color: rgb(185, 88, 8);
+   text-decoration-style: solid;
+   text-decoration-thickness: 5px;
+}
+
+body p {
+    font-size:20px;
+}
+
+/* работает */
+body p span.font-description {
+    font-size: 20px;
+    font-family: 'Bebas Neue';
+    letter-spacing: 2px;
+    font-weight: bold;
+    
+}
+
+/* не работает */
+/* body p span.description {
+    color: blue;
+} */
+
+/* работает */
+.description {
+    color: rgb(185, 88, 8);
+}
+
+.fear {
+    font-style: italic;
+    margin-block: 1px;
+}
+
+h3 {
+    font-family: 'Roboto Condensed';
+   font-weight: 600;
+   letter-spacing: 2px;
+   line-height: 30px;
+   color: rgb(185, 88, 8);
+}
